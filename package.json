@@ -1,6 +1,6 @@
 {
   "name": "ape-deploying",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Deploying module of ape framework.",
   "main": "lib",
   "scripts": {
@@ -30,6 +30,7 @@
     "argx": "^1.1.5",
     "async": "^1.4.0",
     "execcli": "^2.1.0",
+    "filecopy": "^1.0.1",
     "glob": "^5.0.14",
     "mkdirp": "^0.5.1"
   },
