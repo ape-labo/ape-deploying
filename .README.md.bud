@@ -12,6 +12,7 @@ module.exports = {
     data: {
         pkg: pkg,
         links: {
+            'ape-repo': 'https://github.com/ape-repo',
             'GitHub Pages': 'https://pages.github.com/'
         }
     }

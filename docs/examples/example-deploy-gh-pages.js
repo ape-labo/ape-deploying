@@ -1,13 +1,8 @@
-/**
- * This is an example to deploy gh pages.
- */
-
-"use strict";
-
+#!/usr/bin/env node
 
 var apeDeploying = require('ape-deploying');
 
-apeDeploying('docs', {
+apeDeploying.deployGhPages('docs', {
 
 }, function(err){
     /*...*/
