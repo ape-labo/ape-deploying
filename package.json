@@ -1,6 +1,6 @@
 {
   "name": "ape-deploying",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Deploying module of ape framework.",
   "main": "lib",
   "scripts": {
@@ -29,7 +29,9 @@
   "dependencies": {
     "argx": "^1.1.5",
     "async": "^1.4.0",
-    "execcli": "^2.1.0"
+    "execcli": "^2.1.0",
+    "glob": "^5.0.14",
+    "mkdirp": "^0.5.1"
   },
   "devDependencies": {
     "ape-covering": "^1.0.0",
