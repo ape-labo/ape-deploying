@@ -1,6 +1,6 @@
 {
   "name": "ape-deploying",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "Deploying module of ape framework.",
   "main": "lib",
   "scripts": {
@@ -40,7 +40,8 @@
     "ape-reporting": "^1.0.4",
     "ape-tasking": "^1.0.2",
     "ape-testing": "^1.1.4",
-    "coz": "^1.4.2",
+    "ape-tmpl": "^1.0.1",
+    "coz": "^1.5.0",
     "injectmock": "^1.0.4"
   }
 }
