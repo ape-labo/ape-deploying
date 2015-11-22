@@ -2,7 +2,7 @@ language: node_js
 node_js:
 - '4.0'
 before_install: 
-- npm install mocha nodeunit istnabul -g
+- npm install mocha nodeunit istanbul -g
 install:
 - npm install
 before_script:
