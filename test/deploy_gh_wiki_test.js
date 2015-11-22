@@ -2,11 +2,12 @@
  * Test case for deployGhWiki.
  * Runs with nodeunit.
  */
+"use strict";
 
-var deployGhWiki = require('../lib/deploy_gh_wiki.js');
+const deployGhWiki = require('../lib/deploy_gh_wiki.js');
 
 exports['Deploy gh wiki with invalid url.'] = function (test) {
-    deployGhWiki('foo/bar/*.md', "foo/bar", function (err) {
+    deployGhWiki('foo/bar/*.md', "foo/bar", (err) => {
         test.ok(!!err);
         test.done();
     });

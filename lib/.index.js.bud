@@ -4,7 +4,7 @@
 
 "use strict";
 
-var indexJsBud = require('coz/lib/bud/factory/index_js_bud'),
+const indexJsBud = require('coz/lib/bud/factory/index_js_bud'),
     pkg = require('../package.json');
 
 module.exports = indexJsBud({

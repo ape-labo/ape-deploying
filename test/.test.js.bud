@@ -4,7 +4,7 @@
 
 "use strict";
 
-var nodeunitTestBud = require('coz/lib/bud/factory/nodeunit_testcase_js_bud')
+const nodeunitTestBud = require('coz/lib/bud/factory/nodeunit_testcase_js_bud')
 
 module.exports = nodeunitTestBud({
     src: [

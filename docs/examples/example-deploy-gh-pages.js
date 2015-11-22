@@ -1,9 +1,10 @@
 #!/usr/bin/env node
+"use strict";
 
-var apeDeploying = require('ape-deploying');
+const apeDeploying = require('ape-deploying');
 
 apeDeploying.deployGhPages('docs', {
 
-}, function(err){
+}, (err) => {
     /*...*/
 });
