@@ -4,9 +4,9 @@
 
 "use strict";
 
-const nodeunitTestBud = require('coz/lib/bud/factory/nodeunit_testcase_js_bud')
+const cozTmpl = require('coz-tmpl');
 
-module.exports = nodeunitTestBud({
+module.exports = cozTmpl.nodeunitTestJsBud({
     src: [
         __dirname + '/../lib/*.js'
     ],

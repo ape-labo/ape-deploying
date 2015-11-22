@@ -4,10 +4,10 @@
 
 "use strict";
 
-const indexJsBud = require('coz/lib/bud/factory/index_js_bud'),
+const apeTmpl = require('ape-tmpl'),
     pkg = require('../package.json');
 
-module.exports = indexJsBud({
+module.exports = apeTmpl.indexJsBud({
     desc: pkg.description,
     module: pkg.name,
     dirname: __dirname
