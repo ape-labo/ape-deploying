@@ -1,15 +1,16 @@
 /**
  * Test case for deployGhWiki.
- * Runs with nodeunit.
+ * Runs with mocha.
  */
 "use strict";
 
-const deployGhWiki = require('../lib/deploy_gh_wiki.js');
+const deployGhWiki = require('../lib/deploy_gh_wiki.js'),
+    assert = require('assert');
 
-exports['Deploy gh wiki with invalid url.'] = function (test) {
+it('Deploy gh wiki with invalid url.', (done) => {
     deployGhWiki('foo/bar/*.md', "foo/bar", (err) => {
-        test.ok(!!err);
-        test.done();
+        assert.ok(!!err);
+        done();
     });
-};
+});
 

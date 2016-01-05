@@ -1,16 +1,17 @@
 /**
  * Test case for deployGhPages.
- * Runs with nodeunit.
+ * Runs with mocha.
  */
 "use strict";
 
-const deployGhPages = require('../lib/deploy_gh_pages.js');
+const deployGhPages = require('../lib/deploy_gh_pages.js'),
+    assert=  require('assert');
 
-exports['Deploy with invalid dir'] = function (test) {
+it('Deploy with invalid dir', (done) => {
 
     deployGhPages('foo/bar/__invalid_dir', (err) => {
-        test.ok(!!err);
-        test.done();
+        assert.ok(!!err);
+        done();
     });
-};
+});
 

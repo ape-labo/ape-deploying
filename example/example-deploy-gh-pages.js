@@ -3,7 +3,7 @@
 
 const apeDeploying = require('ape-deploying');
 
-apeDeploying.deployGhPages('docs', {
+apeDeploying.deployGhPages('doc', {
 
 }, (err) => {
     /*...*/

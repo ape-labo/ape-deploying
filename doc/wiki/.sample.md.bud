@@ -1,0 +1,16 @@
+"use strict";
+
+const pkg = require('../../package.json');
+
+module.exports = {
+    force: true,
+    mode: '444',
+    data: {
+        date: new Date().toLocaleDateString(),
+        pkg: pkg
+    }
+};
+
+if (!module.parent) {
+    require('coz').render(__filename);
+}
