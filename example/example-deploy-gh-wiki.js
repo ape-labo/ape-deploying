@@ -1,11 +1,12 @@
 #!/usr/bin/env node
-"use strict";
+'use strict'
 
-const apeDeploying = require('ape-deploying');
+const apeDeploying = require('ape-deploying')
 
-const wikiUrl = 'https://github.com/okunishinishi/node-coz.wiki.git';
+const wikiUrl = 'https://github.com/okunishinishi/node-coz.wiki.git'
+
 apeDeploying.deployGhWiki('doc/wiki/*.md', wikiUrl, {
-    clean: true
-}, (err) => {
-    /*...*/
-});
+  clean: true
+}).then(() => {
+  /* ... */
+})

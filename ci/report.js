@@ -4,7 +4,7 @@
  * Send reports.
  */
 
-"use strict";
+'use strict'
 
 process.chdir(__dirname + '/..');
 

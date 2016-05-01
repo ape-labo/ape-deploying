@@ -4,23 +4,24 @@
 
 "use strict";
 
-const apeTmpl = require('ape-tmpl'),
-    pkg = require('./package.json');
+const apeTmpl = require('ape-tmpl')
+const pkg = require('./package.json')
 
 module.exports = apeTmpl.readmeMdBud({
-    pkg: pkg,
-    repo: pkg.repository,
-    sections: 'doc/guides/*.md.hbs',
-    badges: {
-        travis: true,
-        codeclimate: true,
-        codeclimateCoverage: true,
-        gemnasium: true,
-        npm: true
-    },
-    links: require('./doc/links.json')
-});
+  pkg: pkg,
+  repo: pkg.repository,
+  sections: 'doc/guides/*.md.hbs',
+  badges: {
+    travis: true,
+    codeclimate: true,
+    codeclimateCoverage: true,
+    gemnasium: true,
+    npm: true,
+    standard: true
+  },
+  links: require('./doc/links.json')
+})
 
 if (!module.parent) {
-    require('coz').render(__filename);
+  require('coz').render(__filename);
 }
