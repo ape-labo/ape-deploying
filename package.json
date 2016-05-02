@@ -1,6 +1,6 @@
 {
   "name": "ape-deploying",
-  "version": "4.0.2",
+  "version": "4.0.3",
   "description": "Deploying module of ape framework.",
   "main": "lib",
   "scripts": {
@@ -22,7 +22,6 @@
   "homepage": "https://github.com/ape-repo/ape-deploying#readme",
   "dependencies": {
     "argx": "^2.0.2",
-    "async": "^1.5.2",
     "co": "^4.6.0",
     "colorprint": "^3.0.3",
     "execcli": "^4.0.2",
