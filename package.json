@@ -1,6 +1,6 @@
 {
   "name": "ape-deploying",
-  "version": "5.0.1",
+  "version": "5.0.2",
   "description": "Deploying module of ape framework.",
   "main": "lib",
   "scripts": {
@@ -43,6 +43,7 @@
     "injectmock": "^2.0.0"
   },
   "engines": {
-    "node": ">=4.0.0"
+    "node": ">=6",
+    "npm": ">=3"
   }
 }
