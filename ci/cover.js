@@ -6,10 +6,10 @@
 
 'use strict'
 
-process.chdir(__dirname + '/..');
+process.chdir(`${__dirname}/..`)
 
 const apeTasking = require('ape-tasking'),
-    apeCovering = require('ape-covering');
+    apeCovering = require('ape-covering')
 
 apeTasking.runTasks('cover', [
     (callback) => {
@@ -17,6 +17,6 @@ apeTasking.runTasks('cover', [
             'test/*_test.js'
         ], {
             dir: 'coverage'
-        }, callback);
+        }, callback)
     }
-], true);
+], true)

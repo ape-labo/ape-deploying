@@ -5,13 +5,22 @@
 'use strict'
 
 const deployGhPages = require('../lib/deploy_gh_pages.js')
+const injectmock = require('injectmock')
 const assert = require('assert')
+const co = require('co')
 
-it('Deploy with invalid dir', (done) => {
-  deployGhPages('foo/bar/__invalid_dir', (err) => {
-    assert.ok(!!err)
-    done()
-  })
+describe('deploy gh pages', function () {
+  after(() => co(function * () {
+    injectmock.restoreAll()
+  }))
+
+  it('Deploy with invalid dir', () => co(function * () {
+    try {
+      yield deployGhPages('foo/bar/__invalid_dir')
+    } catch (err) {
+      assert.ok(!!err)
+    }
+  }))
 })
 
-/* global it */
+/* global before, after, describe, it */
