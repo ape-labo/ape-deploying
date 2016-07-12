@@ -1,6 +1,6 @@
 {
   "name": "ape-deploying",
-  "version": "5.0.3",
+  "version": "5.0.4",
   "description": "Deploying module of ape framework.",
   "main": "lib",
   "scripts": {
@@ -25,21 +25,21 @@
     "co": "^4.6.0",
     "colorprint": "^4.0.2",
     "debug": "^2.2.0",
-    "execcli": "^4.0.5",
+    "execcli": "^4.0.6",
     "filecopy": "^2.0.0",
     "glob": "^7.0.5",
     "mkdirp": "^0.5.1",
-    "rimraf": "^2.5.2"
+    "rimraf": "^2.5.3"
   },
   "devDependencies": {
     "ape-covering": "^3.0.3",
-    "ape-releasing": "^3.1.1",
+    "ape-releasing": "^4.0.1",
     "ape-reporting": "^3.0.1",
-    "ape-tasking": "^4.0.1",
-    "ape-testing": "^4.0.0",
-    "ape-tmpl": "^5.0.3",
-    "ape-updating": "^3.0.2",
-    "coz": "^6.0.2",
+    "ape-tasking": "^4.0.3",
+    "ape-testing": "^4.0.1",
+    "ape-tmpl": "^5.0.12",
+    "ape-updating": "^4.0.4",
+    "coz": "^6.0.4",
     "injectmock": "^2.0.0"
   },
   "engines": {
