@@ -1,6 +1,6 @@
 {
   "name": "ape-deploying",
-  "version": "5.0.4",
+  "version": "5.0.5",
   "description": "Deploying module of ape framework.",
   "main": "lib",
   "scripts": {
@@ -21,13 +21,13 @@
   },
   "homepage": "https://github.com/ape-repo/ape-deploying#readme",
   "dependencies": {
+    "aglob": "^1.0.1",
     "argx": "^2.0.2",
     "co": "^4.6.0",
     "colorprint": "^4.0.2",
     "debug": "^2.2.0",
     "execcli": "^4.0.6",
     "filecopy": "^2.0.0",
-    "glob": "^7.0.5",
     "mkdirp": "^0.5.1",
     "rimraf": "^2.5.3"
   },
