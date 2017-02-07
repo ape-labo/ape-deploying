@@ -1,10 +1,10 @@
 {
   "name": "ape-deploying",
-  "version": "5.0.6",
+  "version": "5.1.1",
   "description": "Deploying module of ape framework.",
   "main": "lib",
   "scripts": {
-    "test": "./ci/test.js"
+    "test": "node ./ci/test.js"
   },
   "repository": "ape-repo/ape-deploying.git",
   "keywords": [
@@ -21,20 +21,18 @@
   },
   "homepage": "https://github.com/ape-repo/ape-deploying#readme",
   "dependencies": {
-    "aglob": "^1.0.1",
+    "aglob": "^2.0.1",
     "argx": "^3.0.1",
     "co": "^4.6.0",
     "colorprint": "^4.0.11",
     "debug": "^2.2.0",
     "execcli": "^4.0.8",
-    "filecopy": "^2.0.2",
+    "filecopy": "^3.0.0",
     "mkdirp": "^0.5.1",
     "rimraf": "^2.5.4"
   },
   "devDependencies": {
-    "ape-covering": "^3.0.4",
     "ape-releasing": "^4.0.4",
-    "ape-reporting": "^3.0.2",
     "ape-tasking": "^4.0.8",
     "ape-testing": "^4.0.2",
     "ape-tmpl": "^5.0.15",
@@ -44,6 +42,6 @@
   },
   "engines": {
     "node": ">=6",
-    "npm": ">=3"
+    "npm": ">=4"
   }
 }

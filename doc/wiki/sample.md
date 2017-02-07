@@ -1,4 +1,4 @@
 This is sample wiki
 -------------------
 
-This is a sample wiki deployed by ape-deploying@5.0.5, on 7/31/2016.
+This is a sample wiki deployed by ape-deploying@5.1.0, on 2017-02-07.
