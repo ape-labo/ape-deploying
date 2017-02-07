@@ -1,6 +1,6 @@
 {
   "name": "ape-deploying",
-  "version": "5.1.1",
+  "version": "5.1.2",
   "description": "Deploying module of ape framework.",
   "main": "lib",
   "scripts": {
